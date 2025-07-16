@@ -1,8 +1,3 @@
-Sure! Here's the **entire README.md** content as a **single file** — ready to copy and paste into your project without any extra formatting steps:
-
----
-
-````markdown
 # 🚗 Car Rental Web App
 
 A full-stack **Car Rental Booking** application built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). This app allows users to browse, book, and manage car rentals, while admins can manage inventory, users, and bookings.
@@ -93,5 +88,4 @@ car-rental/
 
 This project is licensed under the MIT License.
 
-```
 ```
