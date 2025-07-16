@@ -38,34 +38,34 @@ A full-stack **Car Rental Booking** application built with the **MERN stack** (M
 ### Installation
 
 1. Clone the repo:
-   ```bash
+```bash
    git clone https://github.com/sk-saravana03/car-rental.git
    cd car-rental
 ````
 
 2. Install frontend and backend dependencies:
 
-   ```bash
+```bash
    cd client
    npm install
 
    cd ../server
    npm install
-   ```
+```
 
 3. Create `.env` file in `server/` with:
 
-   ```
+```
    MONGO_URI=your_mongo_connection_string
    JWT_SECRET=your_jwt_secret
    STRIPE_SECRET_KEY=your_stripe_key
    TWILIO_ACCOUNT_SID=your_twilio_sid
    TWILIO_AUTH_TOKEN=your_twilio_token
-   ```
+```
 
 4. Run development server:
 
-   ```bash
+```bash
    # Terminal 1
    cd server
    npm run dev
@@ -73,7 +73,7 @@ A full-stack **Car Rental Booking** application built with the **MERN stack** (M
    # Terminal 2
    cd client
    npm start
-   ```
+```
 
 ## 📦 Folder Structure
 
