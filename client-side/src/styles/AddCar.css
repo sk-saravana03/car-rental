@@ -1,0 +1,84 @@
+/* Add Car Button (Top-Right Corner) */
+.add-car-button {
+  position: absolute;
+  top: 50px;
+  right: 70px;
+  width: fit-content;
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.add-car-button:hover {
+  background-color: darkgreen;
+}
+
+.add-car-form{
+  z-index: 100;
+}
+
+/* Add Car Form */
+.add-car-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.782);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* Form Fields */
+.add-car-form label {
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.add-car-form input,
+.add-car-form select {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Multi-select Dropdown */
+.tags-dropdown {
+  height: 80px;
+}
+
+/* Submit Button */
+.add-car-submit {
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-top: 1rem;
+}
+
+.add-car-submit:hover {
+  background-color: #0056b3;
+}
+
+.car-list{
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  z-index: 50;
+}
+.car-item img{
+  height: 170px;
+  width: 300px;
+}

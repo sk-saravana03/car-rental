@@ -1,0 +1,120 @@
+.dashboard-container{
+  margin-inline: 5%;
+
+}
+
+.user-dashboard {
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: absolute;  
+  }
+  .dashboard-segment{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.436);
+    padding: 5px;
+    width: max-content;
+    padding-inline: 10%;
+    border-radius: 50px;
+    left: 8%;
+    display:grid;
+    flex-wrap: wrap;
+    flex-direction: row; 
+  }
+
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-header img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .segment {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .segment h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .segment p {
+    margin: 5px 0;
+  }
+  
+  .profile-progress {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background: #28a745;
+    width: 75%; /* Example: 75% completed */
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  @media (max-width: 600px) {
+    .user-dashboard {
+      padding: 10px;
+    }
+  
+    .profile-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .edit-btn {
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+  

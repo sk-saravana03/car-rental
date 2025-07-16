@@ -1,0 +1,99 @@
+.auth-container {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .auth-box {
+    position: relative;
+    width: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+  }
+  
+  .auth-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .auth-box button {
+    width: 100%;
+    padding: 10px;
+    background: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .auth-box button:hover {
+    background: #ffaa00;
+  }
+  
+  .toggle-auth {
+    margin-top: 10px;
+    color: #ffcc00;
+    cursor: pointer;
+  }
+  
+  .toggle-auth:hover {
+    text-decoration: underline;
+  }
+  
+  .car-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 100px;
+    background: url('car-image.png') no-repeat center/cover;
+  }
+  
+  .car.start {
+    animation: drive 1.5s linear forwards;
+  }
+  
+  .car.hazard {
+    animation: blink-hazard 0.5s infinite alternate;
+  }
+  .toggle-authadmin{
+    color: white;
+    text-decoration: none;
+  }
+  
+  @keyframes drive {
+    from {
+      transform: translateX(-50%) translateY(10px);
+    }
+    to {
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+  
+  @keyframes blink-hazard {
+    from {
+      filter: brightness(1);
+    }
+    to {
+      filter: brightness(0.5);
+    }
+  }
+  
